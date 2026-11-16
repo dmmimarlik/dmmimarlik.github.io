@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Yonucu;Duygu;;;
+FN:Duygu Yonucu
+ORG:DM Mimarlık
+TITLE:Mimar
+TEL;TYPE=CELL:+905444620002
+EMAIL;TYPE=WORK:iletisim.dmmimarlik@gmail.com
+ADR;TYPE=WORK:;;Esentepe Mah. Büyükdere Cad. No:201 Loft Residence A Blok No: 40;Şişli;İstanbul;;Türkiye
+URL:https://dmmimarlik.github.io/duygu/
+END:VCARD
