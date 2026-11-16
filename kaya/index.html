@@ -1,1 +1,68 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Kaya Başaran | DM Mimarlık</title>
+<meta name="robots" content="noindex, nofollow">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,400;1,400&family=Outfit:wght@300;400;500&display=swap">
+<style>
+:root{
+  --bg:#30341a; --ink:#f2efdf; --sand:#d4c5a0; --line:rgba(212,197,160,.35); --panel:#262a14;
+  box-sizing:border-box; padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
+}
+:root:not([data-theme="light"]){color-scheme:dark}
+html{height:100%;scroll-padding-top:env(safe-area-inset-top,0px)}
+*,*::before,*::after{box-sizing:inherit}
+body{margin:0;min-height:100%;background:var(--bg);color:var(--ink);font-family:"Outfit",system-ui,sans-serif;font-weight:300;display:flex;justify-content:center}
+.wrap{width:100%;max-width:460px;padding:28px 22px 40px;position:relative}
+.wrap::before{content:"";position:absolute;top:0;left:0;width:90px;height:90px;background:var(--sand);clip-path:polygon(0 0,100% 0,0 100%)}
+.brand{text-align:center;padding-top:34px;margin-bottom:34px}
+.mono{display:inline-flex;align-items:center;font-family:"Bodoni Moda","Didot",Georgia,serif;font-size:84px;line-height:1;color:var(--sand);position:relative;padding-left:22px}
+.mono::before{content:"";position:absolute;left:6px;top:-6px;bottom:-6px;width:2px;background:var(--sand);opacity:.8}
+.mono::after{content:"";position:absolute;left:0;width:14px;height:2px;background:var(--sand);top:50%}
+.name{font-family:"Bodoni Moda",Georgia,serif;font-style:italic;font-size:20px;letter-spacing:.04em;margin:10px 0 0}
+.tabs{display:flex;gap:8px;margin:30px 0 18px;border-bottom:1px solid var(--line)}
+.tabs button{flex:1;background:none;border:0;color:var(--ink);opacity:.6;font:inherit;font-size:15px;padding:12px 4px;cursor:pointer;border-bottom:2px solid transparent;margin-bottom:-1px}
+.tabs button[aria-selected="true"]{opacity:1;border-bottom-color:var(--sand)}
+.tabs button:focus-visible,.row:focus-visible{outline:2px solid var(--sand);outline-offset:3px}
+.person h1{font-size:30px;font-weight:500;margin:6px 0 2px}
+.person p{margin:0 0 22px;font-size:18px;color:var(--sand)}
+.rows{border-top:1px solid var(--line)}
+.row{display:flex;gap:16px;align-items:center;padding:17px 4px;color:var(--ink);text-decoration:none;border-bottom:1px solid var(--line);font-size:16px;line-height:1.45}
+.row svg{flex:none;width:22px;height:22px;fill:none;stroke:var(--sand);stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.row span{overflow-wrap:anywhere}
+.row small{display:block;font-size:13px;opacity:.65}
+.foot{margin-top:28px;text-align:center;font-size:13px;opacity:.6}
+</style>
+</head>
+<body>
+<main class="wrap">
+  <header class="brand">
+    <div class="mono" aria-hidden="true">DM</div>
+    <p class="name">DM Mimarlık</p>
+  </header>
 
+  <section class="person" id="person" aria-live="polite">
+    <h1>Kaya Başaran</h1>
+    <p>İnşaat Mühendisi</p>
+    <div class="rows">
+      <a class="row" href="tel:+905322143314">
+        <svg viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg>
+        <span>+90 532 214 33 14</span>
+      </a>
+      <a class="row" href="mailto:iletisim.dmmimarlik@gmail.com">
+        <svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+        <span>iletisim.dmmimarlik@gmail.com</span>
+      </a>
+      <a class="row" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Esentepe+Mah.+B%C3%BCy%C3%BCkdere+Cad.+No%3A201+Loft+Residence+%C5%9Ei%C5%9Fli+%C4%B0stanbul">
+        <svg viewBox="0 0 24 24"><path d="M12 21s7-6.2 7-11.5a7 7 0 0 0-14 0C5 14.800 12 21 12 21z"/><circle cx="12" cy="9.500" r="2.500"/></svg>
+        <span>Esentepe Mah. Büyükdere Cad. No:201<br>Loft Residence A Blok No: 40<br>Şişli / İstanbul<small>Haritada aç</small></span>
+      </a>
+    </div>
+  </section>
+  <p class="foot">Mekânlara duygu katar</p>
+</main>
+
+</body>
+</html>
