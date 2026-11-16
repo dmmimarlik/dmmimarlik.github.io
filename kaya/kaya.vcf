@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Başaran;Kaya;;;
+FN:Kaya Başaran
+ORG:DM Mimarlık
+TITLE:İnşaat Mühendisi
+TEL;TYPE=CELL:+905322143314
+EMAIL;TYPE=WORK:iletisim.dmmimarlik@gmail.com
+ADR;TYPE=WORK:;;Esentepe Mah. Büyükdere Cad. No:201 Loft Residence A Blok No: 40;Şişli;İstanbul;;Türkiye
+URL:https://dmmimarlik.github.io/kaya/
+END:VCARD
